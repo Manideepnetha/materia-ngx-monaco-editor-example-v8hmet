@@ -1,0 +1,15 @@
+<mat-toolbar fxLayout="row" fxLayoutAlign="start center" color="primary" class="mat-elevation-z8">
+  <h1>
+    Angular Monaco Editor library demo
+  </h1>
+</mat-toolbar>
+<div class="editor-container" fxLayout="column">
+  <h2 class=" mat-headline">Custom theme example</h2>
+  <ngx-monaco-editor fxFlex [options]="editorOptions" [(ngModel)]="code" (init)="editorInit($event)">
+  </ngx-monaco-editor>
+</div>
+
+<div>
+
+</div>
+
